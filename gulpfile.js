@@ -63,11 +63,11 @@ const deployFTP = gulp.series(clearn, mainTasks, ftp);//подключение �
 
 //экспорт режимов
 //npm run svgSpriter
-export { svgSpriter } //преобразует все svg файлы в один спрайт
+export { svgSpriter }; //преобразует все svg файлы в один спрайт
 //npm run dev
 export { dev };
 //npm run fullDev
-export { fullDev }
+export { fullDev };
 //npm run build
 export { build };
 //npm run zip
