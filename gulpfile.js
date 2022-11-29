@@ -1,7 +1,7 @@
 //Подключение модулей разрешено потому что в package.json указан "type":"module", что позволяет пользоваться подключением модулей из ES6
 //подключаем основной модуль. Поиск ведётся по названию в DevDependencies в файле package.json, то есть сначала нужно подключить через npm.
 //npm i gulp -D, так же нужно что бы gulp был установлен глобально на пк, npm i gulp-cli -g
-import { gulp } from "gulp";
+import gulp from "gulp";
 //импорт константы path из файла оп переданному пути
 import { path } from "./gulp/config/path.js";
 //импорт плагинов
